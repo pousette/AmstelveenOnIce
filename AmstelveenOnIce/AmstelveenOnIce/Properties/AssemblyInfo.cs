@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AmstelveenOnIce1")]
+[assembly: AssemblyTitle("AmstelveenOnIce")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AmstelveenOnIce1")]
+[assembly: AssemblyProduct("AmstelveenOnIce")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d4045050-7336-455e-b02c-9ca38b1176f0")]
+[assembly: Guid("0328387d-fc49-443a-b947-0e3e2e161b78")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,1 +1,1 @@
-﻿
+﻿ document.getElementById("logo").innerHTML = "<h1>Hier komt het logo</h1>";

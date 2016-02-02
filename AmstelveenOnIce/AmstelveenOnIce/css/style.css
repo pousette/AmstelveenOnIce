@@ -1,6 +1,18 @@
-﻿body {
+﻿html{
+    background: #0094ff;
+}
+body {
 	width:80%;/*alle children van body worden weergegeven op 80% van het scherm*/
 	margin-right: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
 	margin-left: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
 	font-family: Verdana, Geneva, sans-serif;/*default font wordt overschreven door aanwezig font*/
+    margin-top:40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff;
+    padding: 10px 15px;
 	}
+h1{
+    text-align: center;
+    margin: 40px 0px;
+}

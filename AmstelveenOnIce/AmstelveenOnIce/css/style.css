@@ -16,3 +16,27 @@ h1{
     text-align: center;
     margin: 40px 0px;
 }
+
+legend {
+    font-size : 1.2em;
+    font-weight : bold;
+    padding-left : 25%;
+}
+
+label {
+   float : left;
+   width : 25%;
+   text-align : right;
+   margin-top : 10px;
+}
+
+.invoerveld {
+    margin-left : 10px;
+    margin-top : 10px
+}
+
+.les-pulldown {
+    height : 25px;
+    margin-top : 10px;
+    margin-left : 26%;
+}

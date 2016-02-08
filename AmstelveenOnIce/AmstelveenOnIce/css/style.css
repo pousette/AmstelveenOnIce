@@ -34,18 +34,20 @@ label {
    float : left;
    width : 25%;
    text-align : right;
+   
    margin-top : 10px;
 }
 
 .invoerveld {
     margin-left : 10px;
-    margin-top : 10px
+    margin-top : 10px;
+    width:250px;
 }
 
 .les-pulldown {
     height : 25px;
     margin-top : 10px;
-    margin-left : 26%;
+    margin-left : 50%;
 }
 nav{
     text-align:center;

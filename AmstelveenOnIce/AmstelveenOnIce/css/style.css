@@ -1,5 +1,5 @@
 ﻿html{
-    background: #0094ff;
+    background: url("../images/bg.png");
 }
 body {
 	width:80%;/*alle children van body worden weergegeven op 80% van het scherm*/

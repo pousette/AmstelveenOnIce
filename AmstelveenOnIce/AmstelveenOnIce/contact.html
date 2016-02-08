@@ -1,4 +1,13 @@
-﻿<!DOCTYPE html>
+﻿<!--
+   Dit formulier is in verband met oefenopdracht voor AmstelveenOnIce
+   door Amsterdam groep 1 ontworpen.
+
+    Program : contact.html
+    Autor	  : Amsterdam groep 1
+    Datum	  : 07-02-2016
+-->
+
+<!DOCTYPE html>
 <html>
 <head>
     <title>Contact pagina</title>
@@ -10,18 +19,39 @@
         <div id="logo"></div><!-- id for javascript HG-->
         <nav id="mainnav"><!-- id for javascript HG-->
         </nav>
-    </header>
-    <section>
-        <img /> <!--slider-->
-    </section>
-    <section>
-        <article>
-            <h1>Contact pagina</h1>
-            <p>Hier kun je de contact pagina plaatsen </p>
-        </article>
-        <aside></aside>
-    </section>
-    <footer></footer>
+    </header>    
+    <article><!--08-02-2016-BEGIN-SU-->
+        <header>
+            <h1>Contact Formulier</h1>
+        </header>
+        <section>
+            <p>Graag wil ik informatie over het volgende:</p>
+            <form>
+                <select>
+                    <option>Schaatsen</option>
+                    <option>Schoolschaatsen</option>
+                    <option>Verjaardagspartijtje</option>
+                    <option>Bedrijfsfeesten</option>
+                    <option>Discoschaatsen</option>
+                    <option>Curling competitie</option>
+                    <option>Ijshockey</option>
+                </select>
+            </form>
+        </section>
+    </article>
+
+    <footer>
+        <adress>
+            Naam<br />
+            Email<br />
+            Tel.
+            Eventuele vraag en/of opmerkingen:<br />
+            <textarea id="onIce" name="onIce"
+                      cols="50" rows="3"
+                      placeholder="Wilt u eventueel uw vraag invullen?"
+                      maxlength="300"></textarea>
+        </adress>
+    </footer><!--08-08-2016,EINDE-->
     <script src="scripts/amstelveenOnIce.js"></script>
     <script src="scripts/snowstorm.js"></script>
 </body>

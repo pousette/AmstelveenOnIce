@@ -1,3 +1,3 @@
-﻿document.getElementById("logo").innerHTML = "<h1>Hier komt het logo</h1>";
+﻿document.getElementById("logo").innerHTML = "<img src='images/logo.png'/>";
 document.getElementById("mainnav").innerHTML = "<a href='home.html'>Home</a> " +
            "<a href='inschrijfformulier.html'>inschrijfformulier</a> " + "<a href='contact.html'>Contact</a> ";

@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="contact.html" />
     <Content Include="css\style.css" />
+    <Content Include="informatie.html" />
     <Content Include="images\logo.png" />
     <Content Include="Inschrijfformulier.html" />
     <Content Include="packages.config" />

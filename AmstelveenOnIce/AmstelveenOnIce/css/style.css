@@ -17,6 +17,10 @@ body {
     background: #fff;
     padding: 10px 90px;
 	}
+
+footer {
+    margin-top : 30px;
+}
 #logo {
     margin:15px auto;
     width:500px;
@@ -96,15 +100,19 @@ label {
 .button {
     text-decoration:none;
     border : 0;
-    padding:5px;
+    padding:15px;
     background-color:#3188CE;
-    margin-left : 50%;
+    margin-left : 44%;
     border-radius:5px;
     font-size:1em;
     color:white;
-    height : 40px;
-    width : 100px;
+    /*height : 40px;
+    width : 100px;*/
    
+}
+
+#zichtbaar {
+    display : none;
 }
 
 .les-pulldown {

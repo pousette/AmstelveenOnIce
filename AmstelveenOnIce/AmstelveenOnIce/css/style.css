@@ -1,7 +1,8 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 html{
-    background: url("../images/bg.png");
+    background: url("../images/bg.png") no-repeat center bottom fixed;
+    background-size:cover;
 }
 
 body {

@@ -1,6 +1,9 @@
-﻿html{
+﻿@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+html{
     background: url("../images/bg.png");
 }
+
 body {
 	width:80%;/*alle children van body worden weergegeven op 80% van het scherm*/
 	margin-right: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
@@ -22,6 +25,15 @@ body {
 h1{
     text-align: center;
     margin: 40px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.6em;
+    color: #3188CE;
+}
+h2{
+    margin: 20px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    color: #3188CE;
 }
 
 legend {

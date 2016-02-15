@@ -99,7 +99,7 @@
     <Content Include="images\bg.png" />
     <Content Include="informatie.html" />
     <Content Include="images\logo.png" />
-    <Content Include="Inschrijfformulier.html" />
+    <Content Include="schaatsles.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

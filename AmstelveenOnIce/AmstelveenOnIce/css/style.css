@@ -1,6 +1,9 @@
-﻿html{
+﻿@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+html{
     background: url("../images/bg.png");
 }
+
 body {
 	width:80%;/*alle children van body worden weergegeven op 80% van het scherm*/
 	margin-right: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
@@ -22,6 +25,15 @@ body {
 h1{
     text-align: center;
     margin: 40px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.6em;
+    color: #3188CE;
+}
+h2{
+    margin: 20px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    color: #3188CE;
 }
 
 legend {
@@ -38,16 +50,60 @@ label {
    margin-top : 10px;
 }
 
+.h2formulier {
+    margin-left : 25%;
+
+}
+
 .invoerveld {
-    margin-left : 10px;
-    margin-top : 10px;
-    width:250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+   
+}
+
+.postcode-cijfer {
+    width : 40px;
+    padding-left : 5px;
+}
+
+.postcode-letter {
+    width : 30px;
+    padding-left : 5px;
+}
+
+.naam {
+    
+    width : 350px;
+   
+}
+
+.invoerblok {
+    margin : 10px auto;
+    width : 50%;
+    list-style-type : none;
+    border : 1px solid #3C95D2;
+    padding : 10px;
+}
+
+.button {
+    text-decoration:none;
+    padding:5px;
+    background-color:#3188CE;
+    margin-left : 50%;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    height : 40px;
+    width : 100px;
+   
 }
 
 .les-pulldown {
-    height : 25px;
-    margin-top : 10px;
+    height : 30px;
     margin-left : 50%;
+    /*margin-top : 10px;
+    margin-left : 50%;*/
 }
 nav{
     text-align:center;

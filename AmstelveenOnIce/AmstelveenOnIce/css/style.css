@@ -36,6 +36,12 @@ h2{
     font-size: 2em;
     color: #3188CE;
 }
+h3{
+    margin: 15px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6em;
+    color: #3188CE;
+}
 
 legend {
     font-size : 1.2em;

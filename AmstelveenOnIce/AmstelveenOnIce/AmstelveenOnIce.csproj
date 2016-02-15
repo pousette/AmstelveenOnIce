@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="contact.html" />
     <Content Include="css\style.css" />
+    <Content Include="tarieven.html" />
     <Content Include="images\bg.png" />
     <Content Include="informatie.html" />
     <Content Include="images\logo.png" />

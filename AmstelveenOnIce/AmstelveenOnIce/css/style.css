@@ -6,7 +6,7 @@ html{
 }
 
 body {
-	width:80%;/*alle children van body worden weergegeven op 80% van het scherm*/
+	width:70%;/*alle children van body worden weergegeven op 80% van het scherm*/
 	margin-right: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
 	margin-left: auto;/*hierdoor wordt alles in het midden gezet binnen 80% van scherm */
 	font-family: Verdana, Geneva, sans-serif;/*default font wordt overschreven door aanwezig font*/

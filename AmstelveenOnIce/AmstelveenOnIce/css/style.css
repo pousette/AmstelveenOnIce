@@ -135,6 +135,18 @@ nav a {
     font-size:1em;
     color:white;
 }
+nav button {
+    text-decoration:none;
+    padding:10px 20px 10px 20px;
+    background-color:#3188CE;
+    margin:0px 10px;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+ 
+}
+
+
 
 nav a:link {
     color:#fff;
@@ -149,3 +161,115 @@ nav a:hover {
 .inner {
     padding:15px;
 }
+
+#informatieList {
+    display : none;
+    position: absolute;
+    /*padding : 1px;*/
+    left :20%;
+    /*top : 61%;*/
+    top : 62%;
+    background-color : #3C95D2;
+    border : 2px solid #3C95D2;
+    border-radius : 5px;
+    width : 18%;
+            
+}
+
+#schaatsList {
+    display : none;
+    position: absolute;
+    /*padding : 1px;*/
+    left : 30.5%;
+    top : 62%;
+    background-color : #3C95D2;
+    border : 2px solid #3C95D2;
+    border-radius : 5px;
+    /*width : 20%;*/
+    
+            
+}
+
+#horecaList {
+    display : none;
+    position: absolute;
+    /*padding : 1px;*/
+    left :41.5%;
+    /*top : 61%;*/
+    top : 62%;
+    background-color : #3C95D2;
+    border : 2px solid #3C95D2;
+    border-radius : 5px;
+    width : 18%;
+            
+}
+
+#organisatieList {
+    display : none;
+    position: absolute;
+    /*padding : 1px;*/
+    left : 50%;
+    top : 62%;
+    background-color : #3C95D2;
+    border : 2px solid #3C95D2;
+    border-radius : 5px;
+    width : 17%;
+    
+            
+}
+
+.menuTabel {
+    list-style-type : none;
+    background-color : #D3EAFA;
+    width : 100%;
+    margin : 0px;
+    
+    
+    
+}
+
+.menuTabel li {
+    color : white;
+    text-align : left;
+    padding : 5px 3px 5px 3px;
+    width : 200px;
+    margin : 15px;
+    
+} 
+
+.menuTabel li a {
+    color : white;
+    background-color:#3188CE;
+    padding : 5px;
+    margin : 0 auto;
+    
+    
+    
+    
+    
+}
+
+/*#menuList a {
+    padding : 10px 1px;
+    margin : 1px;
+}*/
+
+/*.menuInhoud {
+    background-color : #3188CE;
+    color : yellow;
+}*/
+
+
+/*#menuButton {
+    text-decoration:none;
+    padding:10px 20px 10px 20px;
+    background-color:#3188CE;
+    margin:0px 10px;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    
+    
+}*/
+
+

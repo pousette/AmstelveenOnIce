@@ -129,6 +129,7 @@ nav{
     text-align:center;
     background-color:#FFFFFF;
     margin  : auto;
+    width : 90%;
     
 
     
@@ -150,7 +151,8 @@ nav{
 .navMenu {
     list-style-type : none;
     position : relative;
-    padding-left : 20%;
+    /*padding-left : 20%;*/
+    
     
     
 }

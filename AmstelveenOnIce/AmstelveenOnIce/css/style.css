@@ -128,6 +128,9 @@ nav{
     
     text-align:center;
     background-color:#FFFFFF;
+    margin  : auto;
+    
+
     
     /*float:left;*/
     /*position:relative;*/
@@ -147,6 +150,9 @@ nav{
 .navMenu {
     list-style-type : none;
     position : relative;
+    padding-left : 20%;
+    
+    
 }
 
 .menuListItem {
@@ -158,6 +164,8 @@ nav{
     font-size:1em;
     color:white;
     float:left;
+    text-align : center;
+    
     
 }
 

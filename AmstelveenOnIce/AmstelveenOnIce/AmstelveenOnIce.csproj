@@ -102,6 +102,7 @@
     <Content Include="ijshockey.html" />
     <Content Include="openingstijden.html" />
     <Content Include="schoolschaatsen.html" />
+    <Content Include="sponsoren.html" />
     <Content Include="tarieven.html" />
     <Content Include="images\bg.png" />
     <Content Include="informatie.html" />

@@ -6,52 +6,127 @@
     Autor	  : Amsterdam groep 1
     Datum	  : 07-02-2016
 -->
-
-<!DOCTYPE html>
+<!DOCHTYPE html>
 <html>
-<head>
-    <title>Contact pagina</title>
+<!--<head>-->
     <meta charset="utf-8" />
-    <link rel='stylesheet' type='text/css' href='css/style.css' />
+    <title>AmstelveenOnIce</title>
+    <link href="/css/contact.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <header>
         <div id="logo"></div><!-- id for javascript HG-->
-        <nav id="mainnav"><!-- id for javascript HG-->
+        <nav id="mainnav">
+            <!-- id for javascript HG-->
         </nav>
-    </header>    
-    <article><!--08-02-2016-BEGIN-SU-->
-        <header>
+    </header>
+    <!--
+    <header>
+        <div class="container">
             <h1>Contact Formulier</h1>
-        </header>
-        <section>
-            <p>Graag wil ik informatie over het volgende:</p>
-            <form>
-                <select>
+        </div>
+    </header>
+   -->
+    <!--/****do,07-03-2016, BEGIN*****/-->
+    <artical class="formulier">
+        <h1>Contact Formulier</h1> <!--di,05-04-2016-->
+        <div class="container">
+            <form method="get" action="#" id="">    
+                <section class="sectionSelectie">
+                    <div class="selectieVeld"
+                        <p id="paragraaf">Graag wil ik informatie over het volgende:</p><br/>
+                        <select id="selectie" name="Selectie">
+                            <option>Schaatsen</option>
+                            <option>Schoolschaatsen</option>
+                            <option>Verjaardagspartijtje</option>
+                            <option>Bedrijfsfeesten</option>
+                            <option>Discoschaatsen</option>
+                            <option>Curling competitie</option>
+                            <option>Ijshockey selected</option>
+                        </select>
+                    </div>
+                </section>
+
+                <section class="sectionInvoer">
+                    <div class="invoerVeld">
+                        <label for="naam"><b>Naam :</b> </label>
+                        <input type="text" id="naam" name="Naam" placeholder = "Voer uw naam in" />
+                    </div>
+                    <div class="invoerVeld">
+                        <label for="email"><b>Email : </b> </label>
+                        <input type="email" id="email" name="Email" placeholder = "Voer uw e-mail in" required="required" />
+                    </div>
+                    <div class="invoerVeld">
+                        <label for="telefoon">
+                        <strong>Tel.  :</strong><label>
+                        <input type="text" id="telefoon" name="Telefoon"  placeholder = "Voer uw telefoonnummer in"/>
+                    </div>
+                    <div class="invoerVeld">
+                        <p>Eventuele vraag en/of opmerkingen: </p><br />
+                        <textarea id="onIce" name="onIce"
+                            cols="68" rows="5"
+                            placeholder="Wilt u eventueel uw vraag invullen?"
+                            maxlength="300">
+                        </textarea>
+                    </div>
+                </section>
+                
+                <section class="sectionVerzenden">
+                    <div class="verzenden">
+                        <button type="submit" value="versturen">Versturen</button>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </artical>
+    <!--/****do,07-03-2016,EINDE*****/-->
+    <footer id="footer"></footer>
+    <script src="scripts/amstelveenOnIce.js"></script>
+    <script src="scripts/snowstorm.js"></script>
+</body>
+</html>
+
+<!--/****do,07-03-2016, BEGIN*****/--
+<section class="contactFormulier">
+    <h1>Contact Formulier</h1> <!--di,05-04-2016--
+    <div class="container">
+        <form method="get" action="#" id="">
+            <div class="selectieVeld<!--">
+                <p>Graag wil ik informatie over het volgende:</p>
+                <select id="selectie" name="Selectie">
                     <option>Schaatsen</option>
                     <option>Schoolschaatsen</option>
                     <option>Verjaardagspartijtje</option>
                     <option>Bedrijfsfeesten</option>
                     <option>Discoschaatsen</option>
                     <option>Curling competitie</option>
-                    <option>Ijshockey</option>
+                    <option>Ijshockey selected</option>
                 </select>
-                Naam<br />
-                Email<br />
-                Tel.
-                Eventuele vraag en/of opmerkingen:<br />
+            </div>
+            <div class="invoerVeld">
+                <label for="naam"><b>Naam :</b> </label>
+                <input type="text" id="naam" name="Naam" />
+            </div>
+            <div class="invoerVeld">
+                <label for="email"><b>Email : </b> </label>
+                <input type="email" id="email" name="Email" required="required" />
+            </div>
+            <div class="invoerVeld">
+                <label for="telefoon">
+                    <strong>Tel.  :</strong><label>
+                        <input type="text" id="telefoon" name="Telefoon" />
+            </div>
+            <div class="invoerVeld">
+                <p>Eventuele vraag en/of opmerkingen: </p><br />
                 <textarea id="onIce" name="onIce"
-                          cols="50" rows="3"
+                          cols="68" rows="5"
                           placeholder="Wilt u eventueel uw vraag invullen?"
-                          maxlength="300">
-
-                </textarea>
-            </form>
-        </section>
-    </article><!--08-08-2016,EINDE-->
-
-    <footer id="footer"></footer>
-    <script src="scripts/amstelveenOnIce.js"></script>
-    <script src="scripts/snowstorm.js"></script>
-</body>
-</html>
+                          maxlength="300"></textarea>
+            </div>
+            <div class="verzenden">
+                <button type="submit" value="versturen">Versturen</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!--/****do,07-03-2016,EINDE*****/-->

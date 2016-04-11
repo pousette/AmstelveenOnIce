@@ -30,9 +30,12 @@ footer {
 h1{
     text-align: center;
     margin: 40px 0px;
+    padding-top : 40px;
     font-family: 'Indie Flower', cursive;
     font-size: 2.6em;
     color: #3188CE;
+    clear : left;
+    
 }
 h2{
     margin: 20px 0px;
@@ -122,20 +125,113 @@ label {
     margin-left : 50%;*/
 }
 nav{
+    
     text-align:center;
     background-color:#FFFFFF;
-    margin-top:50px;
+    margin  : auto;
+    width : 90%;
+    
+
+    
+    /*float:left;*/
+    /*position:relative;*/
 }
-nav a {
+/*nav a {
     text-decoration:none;
     padding:10px 20px 10px 20px;
     background-color:#3188CE;
-    margin:0px 10px;
+    margin:10px 10px;
     border-radius:5px;
     font-size:1em;
     color:white;
+    float:left;
+    
+}*/
+
+.navMenu {
+    list-style-type : none;
+    position : relative;
+    /*padding-left : 20%;*/
+    
+    
+    
 }
-nav button {
+
+.menuListItem {
+    text-decoration:none;
+    padding:10px;
+    background-color:#3188CE;
+    margin:10px 10px;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    float:left;
+    text-align : center;
+    
+    
+}
+
+.menuListItem a {
+    text-decoration : none;
+    color : white;
+}
+
+.menuSubList {
+    clear : left;
+    color : white;
+    display : none;
+    position: absolute;
+    background-color : #3C95D2;
+    border : 2px solid #3C95D2;
+    border-radius : 5px;
+    list-style-type : none;
+    padding : 5px 10px;
+    margin :10px -10px;
+    text-align : left;
+}
+
+.menuSubList li {
+    padding-bottom : 5px;
+}
+
+.menuSubList a {
+    color : white;
+    text-align : left;
+}
+
+#informatie:hover .menuSubList {
+    display : block;
+}
+
+/*#informatie:hover a {
+    color : #072B7C;
+}*/
+
+#schaatsbaan:hover .menuSubList {
+    display: block;
+}
+
+#horeca:hover .menuSubList {
+    display: block;
+}
+
+#organisatie:hover .menuSubList {
+    display: block;
+}
+
+
+/*nav li {
+    text-decoration:none;
+    padding:10px;
+    background-color:#3188CE;
+    margin:10px 10px;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    float:left;
+    
+}*/
+/*nav button {
     text-decoration:none;
     padding:10px 20px 10px 20px;
     background-color:#3188CE;
@@ -144,16 +240,18 @@ nav button {
     font-size:1em;
     color:white;
  
-}
+}*/
 
 
 
-nav a:link {
+.menuListItem a:link {
     color:#fff;
 }
-nav a:hover {
+
+.menuListItem  a:hover {
     color:#072B7C;
 }
+
 .half {
     width:50%;
     float:left;
@@ -162,19 +260,7 @@ nav a:hover {
     padding:15px;
 }
 
-#informatieList {
-    display : none;
-    position: absolute;
-    /*padding : 1px;*/
-    left :20%;
-    /*top : 61%;*/
-    top : 62%;
-    background-color : #3C95D2;
-    border : 2px solid #3C95D2;
-    border-radius : 5px;
-    width : 18%;
-            
-}
+
 
 #schaatsList {
     display : none;

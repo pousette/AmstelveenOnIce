@@ -94,8 +94,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bedrijfsfeesten.html" />
+    <Content Include="bestuur.html" />
     <Content Include="contact.html" />
     <Content Include="css\style.css" />
+    <Content Include="curling.html" />
+    <Content Include="ijshockey.html" />
+    <Content Include="openingstijden.html" />
+    <Content Include="schoolschaatsen.html" />
+    <Content Include="sponsoren.html" />
     <Content Include="tarieven.html" />
     <Content Include="images\bg.png" />
     <Content Include="informatie.html" />
@@ -118,6 +125,8 @@
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="scripts\amstelveenOnIce.js" />
     <Content Include="scripts\snowstorm.js" />
+    <Content Include="verjaardagspartijtje.html" />
+    <Content Include="vrijwilligers.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

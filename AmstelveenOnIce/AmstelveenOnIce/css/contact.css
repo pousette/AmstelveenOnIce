@@ -41,6 +41,21 @@ label{
 	margin : 10px;
 }
 
+/*
+
+.sectionInvoer{
+    position : relative;
+    border : 7px solid red;
+    margin-bottom : 10px;
+}
+
+.sectionVerzenden{
+    border : 7px solid black;
+    margin-bottom : 0px;
+}
+*/
+
+
 .sectionInvoer .invoerVeld{
 	position : relative;
 	display : block;
@@ -48,34 +63,51 @@ label{
 }
 
 .sectionInvoer .invoerVeld #naam{
-	width : 475px;
+	width : 495px;
     height :25px;
 }
 .sectionInvoer .invoerVeld #email{
-    width : 475px;
+    width : 495px;
 	height :25px;
 }
 .sectionInvoer .invoerVeld #telefoon{
 	position : absolute;
 	margin-left :20px;
-    width : 475px;
+    width : 495px;
     height :25px;
 }
 
 .sectionInvoer .invoerVeld p{
+
+    position : absolute;
+    padding : 5px;
+    margin-left : 5px; 
+/*
     margin : 30px 0px 0px 1px;
+*/
 }
 
 .sectionInvoer .invoerVeld #onIce{
-    position : relative;
+    position : absolute;
+    margin : 10px 0px 0px 10px;
+    /*
+    position : absolute;
 	margin-top :20px 0px 0px 30px;
+*/
 }
 
 .sectionVerzenden .verzenden{
+    /*
     margin-left : 0px;
+*/
 }
 .sectionVerzenden button{
+    position : absolute;
+    margin : 10px 0px 0px 230px;
+    padding : 5px;
+    /*
 	position : relative;
 	margin: 3px 20px 20px 220px;
 	padding : 10px;
+*/
 }
